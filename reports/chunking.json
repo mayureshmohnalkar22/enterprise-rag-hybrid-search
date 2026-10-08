@@ -1,0 +1,17 @@
+{
+  "fixed": {
+    "chunks": 12,
+    "hit_at_5": 1.0,
+    "mrr_at_5": 0.9028
+  },
+  "recursive": {
+    "chunks": 12,
+    "hit_at_5": 1.0,
+    "mrr_at_5": 0.9222
+  },
+  "semantic": {
+    "chunks": 95,
+    "hit_at_5": 0.9667,
+    "mrr_at_5": 0.8339
+  }
+}

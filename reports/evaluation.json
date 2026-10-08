@@ -1,0 +1,3468 @@
+{
+  "k": 5,
+  "case_count": 60,
+  "embedding_mode": "hash",
+  "reranker": "none",
+  "chunk_strategy": "recursive",
+  "modes": {
+    "dense": {
+      "hit_at_k": 0.9833,
+      "mrr_at_k": 0.8233,
+      "precision_at_k": 0.1967,
+      "recall_at_k": 0.9833,
+      "ndcg_at_k": 0.8647,
+      "mean_latency_ms": 0.024,
+      "cases": [
+        {
+          "id": "q001",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.132,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q002",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.039,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "deployment.md",
+            "api_reference.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q003",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.029,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md",
+            "oncall.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q004",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.028,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md",
+            "deployment.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q005",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.025,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "deployment.md",
+            "deployment.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q006",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.023,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "deployment.md",
+            "deployment.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q007",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "data_governance.md",
+            "deployment.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q008",
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.43067655807339306,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "search_guide.md",
+            "authentication.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q009",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "api_reference.md",
+            "deployment.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q010",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "authentication.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q011",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "api_reference.md",
+            "data_governance.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q012",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q013",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "api_reference.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q014",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "api_reference.md",
+            "api_reference.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q015",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "search_guide.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q016",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.024,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "oncall.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q017",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "deployment.md",
+            "authentication.md",
+            "deployment.md",
+            "search_guide.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q018",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.019,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "oncall.md",
+            "search_guide.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q019",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.019,
+          "returned_sources": [
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q020",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.019,
+          "returned_sources": [
+            "deployment.md",
+            "oncall.md",
+            "oncall.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q021",
+          "hit": false,
+          "reciprocal_rank": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "oncall.md",
+            "deployment.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q022",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "api_reference.md",
+            "search_guide.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q023",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.051,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "oncall.md",
+            "data_governance.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q024",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "authentication.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q025",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "data_governance.md",
+            "api_reference.md",
+            "deployment.md",
+            "oncall.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q026",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "authentication.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q027",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q028",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.019,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "data_governance.md",
+            "deployment.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q029",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "api_reference.md",
+            "deployment.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q030",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "data_governance.md",
+            "search_guide.md",
+            "authentication.md",
+            "deployment.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q031",
+          "hit": true,
+          "reciprocal_rank": 0.2,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.43067655807339306,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "oncall.md",
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q032",
+          "hit": true,
+          "reciprocal_rank": 0.2,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.38685280723454163,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "deployment.md",
+            "authentication.md",
+            "data_governance.md",
+            "oncall.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q033",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "api_reference.md",
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q034",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "api_reference.md",
+            "deployment.md",
+            "authentication.md",
+            "api_reference.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q035",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "search_guide.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q036",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.018,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "oncall.md",
+            "deployment.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q037",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "api_reference.md",
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q038",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.019,
+          "returned_sources": [
+            "api_reference.md",
+            "deployment.md",
+            "api_reference.md",
+            "search_guide.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q039",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q040",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "api_reference.md",
+            "data_governance.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q041",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "oncall.md",
+            "authentication.md",
+            "oncall.md",
+            "deployment.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q042",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "oncall.md",
+            "authentication.md",
+            "deployment.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q043",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "oncall.md",
+            "data_governance.md",
+            "oncall.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q044",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "api_reference.md",
+            "oncall.md",
+            "deployment.md",
+            "authentication.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q045",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.019,
+          "returned_sources": [
+            "oncall.md",
+            "oncall.md",
+            "api_reference.md",
+            "search_guide.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q046",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md",
+            "api_reference.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q047",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.018,
+          "returned_sources": [
+            "oncall.md",
+            "deployment.md",
+            "oncall.md",
+            "search_guide.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q048",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "api_reference.md",
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q049",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "oncall.md",
+            "deployment.md",
+            "data_governance.md",
+            "oncall.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q050",
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.43067655807339306,
+          "latency_ms": 0.019,
+          "returned_sources": [
+            "search_guide.md",
+            "authentication.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q051",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "search_guide.md",
+            "api_reference.md",
+            "deployment.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q052",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "api_reference.md",
+            "search_guide.md",
+            "oncall.md",
+            "data_governance.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q053",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "authentication.md",
+            "api_reference.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q054",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.022,
+          "returned_sources": [
+            "search_guide.md",
+            "api_reference.md",
+            "api_reference.md",
+            "search_guide.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q055",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "deployment.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q056",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "search_guide.md",
+            "deployment.md",
+            "data_governance.md",
+            "oncall.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q057",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "api_reference.md",
+            "search_guide.md",
+            "oncall.md",
+            "api_reference.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q058",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "authentication.md",
+            "search_guide.md",
+            "api_reference.md",
+            "oncall.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q059",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.02,
+          "returned_sources": [
+            "api_reference.md",
+            "search_guide.md",
+            "authentication.md",
+            "oncall.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q060",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.021,
+          "returned_sources": [
+            "search_guide.md",
+            "deployment.md",
+            "data_governance.md",
+            "authentication.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        }
+      ]
+    },
+    "sparse": {
+      "hit_at_k": 1.0,
+      "mrr_at_k": 0.9389,
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "ndcg_at_k": 0.9554,
+      "mean_latency_ms": 0.329,
+      "cases": [
+        {
+          "id": "q001",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.562,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md",
+            "data_governance.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q002",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.374,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md",
+            "search_guide.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q003",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.369,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q004",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.383,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md",
+            "data_governance.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q005",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.394,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "search_guide.md",
+            "deployment.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q006",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.338,
+          "returned_sources": [
+            "authentication.md",
+            "api_reference.md",
+            "search_guide.md",
+            "deployment.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q007",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.317,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "data_governance.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q008",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.338,
+          "returned_sources": [
+            "authentication.md",
+            "search_guide.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q009",
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.5,
+          "latency_ms": 0.3,
+          "returned_sources": [
+            "search_guide.md",
+            "api_reference.md",
+            "api_reference.md",
+            "authentication.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q010",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.301,
+          "returned_sources": [
+            "authentication.md",
+            "data_governance.md",
+            "authentication.md",
+            "oncall.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q011",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.324,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q012",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.299,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q013",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.291,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "oncall.md",
+            "search_guide.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q014",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.284,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "api_reference.md",
+            "authentication.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q015",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.326,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q016",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.303,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "deployment.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q017",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.399,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "search_guide.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q018",
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.43067655807339306,
+          "latency_ms": 0.361,
+          "returned_sources": [
+            "oncall.md",
+            "data_governance.md",
+            "authentication.md",
+            "deployment.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q019",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.396,
+          "returned_sources": [
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q020",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.353,
+          "returned_sources": [
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md",
+            "data_governance.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q021",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.336,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "oncall.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q022",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.313,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "search_guide.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q023",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.326,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "api_reference.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q024",
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.5,
+          "latency_ms": 0.31,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "data_governance.md",
+            "deployment.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q025",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.296,
+          "returned_sources": [
+            "data_governance.md",
+            "api_reference.md",
+            "deployment.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q026",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.322,
+          "returned_sources": [
+            "data_governance.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q027",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.303,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q028",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.331,
+          "returned_sources": [
+            "data_governance.md",
+            "search_guide.md",
+            "api_reference.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q029",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.368,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "authentication.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q030",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.325,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q031",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.325,
+          "returned_sources": [
+            "api_reference.md",
+            "deployment.md",
+            "search_guide.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q032",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.316,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "deployment.md",
+            "api_reference.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q033",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.299,
+          "returned_sources": [
+            "api_reference.md",
+            "deployment.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q034",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.295,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "search_guide.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q035",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.312,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "search_guide.md",
+            "deployment.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q036",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.329,
+          "returned_sources": [
+            "oncall.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q037",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.307,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "oncall.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q038",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.291,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "search_guide.md",
+            "authentication.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q039",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.324,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "api_reference.md",
+            "data_governance.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q040",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.305,
+          "returned_sources": [
+            "api_reference.md",
+            "deployment.md",
+            "oncall.md",
+            "authentication.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q041",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.394,
+          "returned_sources": [
+            "oncall.md",
+            "oncall.md",
+            "data_governance.md",
+            "data_governance.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q042",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.362,
+          "returned_sources": [
+            "oncall.md",
+            "oncall.md",
+            "data_governance.md",
+            "data_governance.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q043",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.309,
+          "returned_sources": [
+            "oncall.md",
+            "oncall.md",
+            "data_governance.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q044",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.305,
+          "returned_sources": [
+            "oncall.md",
+            "api_reference.md",
+            "api_reference.md",
+            "search_guide.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q045",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.33,
+          "returned_sources": [
+            "oncall.md",
+            "api_reference.md",
+            "search_guide.md",
+            "search_guide.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q046",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.308,
+          "returned_sources": [
+            "oncall.md",
+            "search_guide.md",
+            "oncall.md",
+            "data_governance.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q047",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.29,
+          "returned_sources": [
+            "oncall.md",
+            "deployment.md",
+            "data_governance.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q048",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.352,
+          "returned_sources": [
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md",
+            "search_guide.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q049",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.305,
+          "returned_sources": [
+            "oncall.md",
+            "data_governance.md",
+            "oncall.md",
+            "api_reference.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q050",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.29,
+          "returned_sources": [
+            "oncall.md",
+            "api_reference.md",
+            "data_governance.md",
+            "api_reference.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q051",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.313,
+          "returned_sources": [
+            "deployment.md",
+            "search_guide.md",
+            "search_guide.md",
+            "api_reference.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q052",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.292,
+          "returned_sources": [
+            "search_guide.md",
+            "data_governance.md",
+            "api_reference.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q053",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.352,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "api_reference.md",
+            "api_reference.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q054",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.365,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "data_governance.md",
+            "authentication.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q055",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.314,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "api_reference.md",
+            "api_reference.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q056",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.304,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q057",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.316,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "api_reference.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q058",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.29,
+          "returned_sources": [
+            "search_guide.md",
+            "authentication.md",
+            "search_guide.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q059",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.285,
+          "returned_sources": [
+            "search_guide.md",
+            "api_reference.md",
+            "oncall.md",
+            "authentication.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q060",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.317,
+          "returned_sources": [
+            "search_guide.md",
+            "api_reference.md",
+            "deployment.md",
+            "deployment.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "hit_at_k": 1.0,
+      "mrr_at_k": 0.8297,
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "ndcg_at_k": 0.8749,
+      "mean_latency_ms": 0.381,
+      "cases": [
+        {
+          "id": "q001",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.475,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q002",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.381,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "deployment.md",
+            "api_reference.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q003",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.395,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md",
+            "oncall.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q004",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.431,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "api_reference.md",
+            "api_reference.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q005",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.456,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "deployment.md",
+            "oncall.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q006",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.399,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "deployment.md",
+            "oncall.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q007",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.392,
+          "returned_sources": [
+            "authentication.md",
+            "authentication.md",
+            "data_governance.md",
+            "deployment.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q008",
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.43067655807339306,
+          "latency_ms": 0.378,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "search_guide.md",
+            "authentication.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q009",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.352,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "api_reference.md",
+            "search_guide.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q010",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.377,
+          "returned_sources": [
+            "authentication.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "authentication.md"
+          ]
+        },
+        {
+          "id": "q011",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.353,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "api_reference.md",
+            "data_governance.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q012",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.36,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q013",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.386,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "search_guide.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q014",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.42,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "deployment.md",
+            "api_reference.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q015",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.432,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "authentication.md",
+            "authentication.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q016",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.404,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "oncall.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q017",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.364,
+          "returned_sources": [
+            "deployment.md",
+            "authentication.md",
+            "deployment.md",
+            "search_guide.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q018",
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.5,
+          "latency_ms": 0.396,
+          "returned_sources": [
+            "data_governance.md",
+            "oncall.md",
+            "deployment.md",
+            "deployment.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q019",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.368,
+          "returned_sources": [
+            "deployment.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q020",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.38,
+          "returned_sources": [
+            "deployment.md",
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "deployment.md"
+          ]
+        },
+        {
+          "id": "q021",
+          "hit": true,
+          "reciprocal_rank": 0.2,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.43067655807339306,
+          "latency_ms": 0.375,
+          "returned_sources": [
+            "deployment.md",
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q022",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.351,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "api_reference.md",
+            "search_guide.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q023",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.376,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "data_governance.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q024",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.357,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "authentication.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q025",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.39,
+          "returned_sources": [
+            "data_governance.md",
+            "api_reference.md",
+            "deployment.md",
+            "oncall.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q026",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.397,
+          "returned_sources": [
+            "data_governance.md",
+            "deployment.md",
+            "api_reference.md",
+            "authentication.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q027",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.367,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "api_reference.md",
+            "oncall.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q028",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.373,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "data_governance.md",
+            "search_guide.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q029",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.372,
+          "returned_sources": [
+            "data_governance.md",
+            "data_governance.md",
+            "api_reference.md",
+            "deployment.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q030",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.356,
+          "returned_sources": [
+            "data_governance.md",
+            "search_guide.md",
+            "deployment.md",
+            "deployment.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "data_governance.md"
+          ]
+        },
+        {
+          "id": "q031",
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.5,
+          "latency_ms": 0.39,
+          "returned_sources": [
+            "deployment.md",
+            "deployment.md",
+            "oncall.md",
+            "api_reference.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q032",
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.43067655807339306,
+          "latency_ms": 0.353,
+          "returned_sources": [
+            "deployment.md",
+            "data_governance.md",
+            "authentication.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q033",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.341,
+          "returned_sources": [
+            "api_reference.md",
+            "deployment.md",
+            "deployment.md",
+            "api_reference.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q034",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.372,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "authentication.md",
+            "deployment.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q035",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.386,
+          "returned_sources": [
+            "api_reference.md",
+            "data_governance.md",
+            "search_guide.md",
+            "oncall.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q036",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.382,
+          "returned_sources": [
+            "deployment.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q037",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.367,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "oncall.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q038",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.351,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "search_guide.md",
+            "deployment.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q039",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.399,
+          "returned_sources": [
+            "api_reference.md",
+            "api_reference.md",
+            "oncall.md",
+            "data_governance.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q040",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.358,
+          "returned_sources": [
+            "api_reference.md",
+            "authentication.md",
+            "api_reference.md",
+            "data_governance.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "api_reference.md"
+          ]
+        },
+        {
+          "id": "q041",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.352,
+          "returned_sources": [
+            "oncall.md",
+            "oncall.md",
+            "authentication.md",
+            "deployment.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q042",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.39,
+          "returned_sources": [
+            "oncall.md",
+            "authentication.md",
+            "oncall.md",
+            "deployment.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q043",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.352,
+          "returned_sources": [
+            "oncall.md",
+            "data_governance.md",
+            "oncall.md",
+            "authentication.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q044",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.378,
+          "returned_sources": [
+            "api_reference.md",
+            "oncall.md",
+            "deployment.md",
+            "search_guide.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q045",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.352,
+          "returned_sources": [
+            "oncall.md",
+            "oncall.md",
+            "search_guide.md",
+            "api_reference.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q046",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.4,
+          "returned_sources": [
+            "oncall.md",
+            "oncall.md",
+            "api_reference.md",
+            "search_guide.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q047",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.388,
+          "returned_sources": [
+            "oncall.md",
+            "deployment.md",
+            "oncall.md",
+            "data_governance.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q048",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.379,
+          "returned_sources": [
+            "api_reference.md",
+            "oncall.md",
+            "api_reference.md",
+            "oncall.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q049",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.384,
+          "returned_sources": [
+            "oncall.md",
+            "data_governance.md",
+            "deployment.md",
+            "oncall.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q050",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.368,
+          "returned_sources": [
+            "search_guide.md",
+            "oncall.md",
+            "api_reference.md",
+            "authentication.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "oncall.md"
+          ]
+        },
+        {
+          "id": "q051",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.359,
+          "returned_sources": [
+            "search_guide.md",
+            "api_reference.md",
+            "deployment.md",
+            "deployment.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q052",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.394,
+          "returned_sources": [
+            "api_reference.md",
+            "search_guide.md",
+            "data_governance.md",
+            "oncall.md",
+            "api_reference.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q053",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.377,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "api_reference.md",
+            "authentication.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q054",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.377,
+          "returned_sources": [
+            "search_guide.md",
+            "api_reference.md",
+            "search_guide.md",
+            "api_reference.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q055",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.399,
+          "returned_sources": [
+            "search_guide.md",
+            "search_guide.md",
+            "api_reference.md",
+            "deployment.md",
+            "data_governance.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q056",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.406,
+          "returned_sources": [
+            "search_guide.md",
+            "deployment.md",
+            "data_governance.md",
+            "oncall.md",
+            "search_guide.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q057",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.4,
+          "returned_sources": [
+            "api_reference.md",
+            "search_guide.md",
+            "api_reference.md",
+            "oncall.md",
+            "deployment.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q058",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.364,
+          "returned_sources": [
+            "authentication.md",
+            "search_guide.md",
+            "api_reference.md",
+            "oncall.md",
+            "authentication.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q059",
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 0.355,
+          "returned_sources": [
+            "api_reference.md",
+            "search_guide.md",
+            "oncall.md",
+            "authentication.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        },
+        {
+          "id": "q060",
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "precision_at_k": 0.2,
+          "recall_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.403,
+          "returned_sources": [
+            "search_guide.md",
+            "deployment.md",
+            "data_governance.md",
+            "authentication.md",
+            "oncall.md"
+          ],
+          "relevant_sources": [
+            "search_guide.md"
+          ]
+        }
+      ]
+    }
+  },
+  "notes": "Document-level retrieval evaluation on provided relevance labels; no answer faithfulness measurement. Precision@K denominator is K; results may contain multiple chunks per document.",
+  "corpus": "data/sample_docs",
+  "ingestion": {
+    "inserted": 12,
+    "deduplicated": 0,
+    "unchanged": false,
+    "documents_processed": 6,
+    "chunks_total": 12
+  }
+}

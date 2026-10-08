@@ -1,0 +1,24 @@
+{
+  "source": "NIST AI RMF 1.0, NIST.AI.100-1, section 3",
+  "reference_items": [
+    "Valid and Reliable",
+    "Safe",
+    "Secure and Resilient",
+    "Accountable and Transparent",
+    "Explainable and Interpretable",
+    "Privacy-Enhanced",
+    "Fair with Harmful Bias Managed"
+  ],
+  "cases": [
+    {
+      "id": "correct",
+      "description": "all seven compound terms preserved",
+      "answer": "Valid and Reliable\nSafe\nSecure and Resilient\nAccountable and Transparent\nExplainable and Interpretable\nPrivacy-Enhanced\nFair with Harmful Bias Managed"
+    },
+    {
+      "id": "split_missing",
+      "description": "secure/resilient split and privacy omitted",
+      "answer": "Valid and Reliable\nSafe\nSecure\nResilient\nAccountable and Transparent\nExplainable and Interpretable\nFair with Harmful Bias Managed"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-rag-hybrid-search"
+version = "5.0.0"
+description = "Local-first RAG with hybrid retrieval, grounded citations, evaluation and dashboard"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.110,<1", "uvicorn[standard]>=0.28,<1", "pydantic>=2,<3", "numpy>=1.26,<3", "requests>=2.31,<3", "streamlit>=1.35,<2", "rank-bm25>=0.2.2,<1", "beautifulsoup4>=4.12,<5", "pymupdf>=1.24,<2", "python-multipart>=0.0.9,<1"]
+
+[project.optional-dependencies]
+ml = ["sentence-transformers>=3,<6", "chromadb>=0.5,<2"]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
+all = ["sentence-transformers>=3,<6", "chromadb>=0.5,<2", "pytest>=8,<10", "httpx>=0.27,<1"]
+
+[tool.setuptools.packages.find]
+include = ["rag*", "app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

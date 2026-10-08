@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+storage/
+*.egg-info/
+.coverage
+.streamlit/secrets.toml
+.Rhistory
+
+# Local environments and secrets
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local indexed documents and databases
+storage/
+
+# Local R history
+.Rhistory
+
+# macOS
+.DS_Store

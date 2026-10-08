@@ -1,0 +1,21 @@
+services:
+  api:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      RAG_API_KEY: ${RAG_API_KEY:-}
+    volumes:
+      - rag_storage:/srv/app/storage
+  dashboard:
+    build: .
+    command: streamlit run app/dashboard.py --server.address=0.0.0.0 --server.port=8501
+    environment:
+      RAG_API_URL: http://api:8000
+      RAG_API_KEY: ${RAG_API_KEY:-}
+    ports:
+      - "127.0.0.1:8501:8501"
+    depends_on:
+      - api
+volumes:
+  rag_storage:

@@ -1,0 +1,5 @@
+# Threat model and deployment boundaries
+
+The default configuration is designed for **one trusted user on localhost**. `RAG_API_KEY` enables a static shared API key, **not** multiuser authentication or per-document ACLs. Bind API/dashboard to loopback for local use; do not expose Docker ports to the Internet. Do not upload private organizational data into a shared instance. API keys are transmitted in the `X-API-Key` header and should only traverse TLS when used remotely. There is no public rate limiting, tenant isolation, virus scanning or user account system: a public-facing deployment needs these controls plus a reverse proxy and an operator security review.
+
+Documents are untrusted input. The prompting instructs Ollama not to obey instructions from retrieved text, but this is not a guaranteed prompt-injection defense. Do not connect answer content to privileged actions. Malformed inputs receive safe 4xx responses. Files are capped at 15 MiB. Indexes persist under `RAG_STORAGE`, which may contain sensitive text; keep it out of Git.
